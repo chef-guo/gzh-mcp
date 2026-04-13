@@ -1,6 +1,6 @@
 {
   "name": "gzh-mcp",
-  "version": "2.0.2",
+  "version": "1.0.0",
   "description": "MCP server for publishing Markdown articles directly to 微信公众号 with elegant built-in themes and preview support.",
   "author": "chef-guo",
   "license": "Apache-2.0",
