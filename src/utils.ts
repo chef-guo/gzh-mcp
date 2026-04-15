@@ -1,6 +1,6 @@
 import path from "node:path";
 import fs from "node:fs/promises";
-import { getNormalizeFilePath } from "@wenyan-md/core/wrapper";
+import { getNormalizeFilePath } from "chef-md/wrapper";
 
 export function buildMcpResponse(content: string) {
     return {

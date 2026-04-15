@@ -4,7 +4,7 @@ import { LIST_THEMES_SCHEMA, REGISTER_THEME_SCHEMA, REMOVE_THEME_SCHEMA } from "
 import { PUBLISH_ARTICLE_SCHEMA, publishArticle, PREVIEW_ARTICLE_SCHEMA, previewArticle } from "./publish.js";
 import pkg from "../package.json" with { type: "json" };
 import { buildMcpResponse, globalStates } from "./utils.js";
-import { addTheme, listThemes, removeTheme } from "@wenyan-md/core/wrapper";
+import { addTheme, listThemes, removeTheme } from "chef-md/wrapper";
 
 /**
  * Create and configure an MCP server instance.

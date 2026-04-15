@@ -1,4 +1,4 @@
-import { renderAndPublish, renderAndPublishToServer, renderWithTheme } from "@wenyan-md/core/wrapper";
+import { renderAndPublish, renderAndPublishToServer, renderWithTheme } from "chef-md/wrapper";
 import { buildMcpResponse, getInputContent, globalStates } from "./utils.js";
 
 export const PREVIEW_ARTICLE_SCHEMA = {
