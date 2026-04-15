@@ -56,7 +56,7 @@ npm install -g gzh-mcp
 | `content_url` | string | | 远程 Markdown 文件 URL |
 | `file` | string | | 本地 Markdown 文件路径 |
 | `theme_id` | string | | 主题 ID |
-| `app_id` | string | | 多公众号时指定 AppID（需 Server 模式） |
+| `app_id` | string | | 多公众号时指定 AppID（需 Server 模式）。**普通模式下无需传入，AppID 已通过环境变量 `WECHAT_APP_ID` 预配置。** |
 
 > `content`、`content_url`、`file` 三选一提供即可。
 

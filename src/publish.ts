@@ -49,7 +49,7 @@ export const PUBLISH_ARTICLE_SCHEMA = {
             app_id: {
                 type: "string",
                 description:
-                    "AppID for the WeChat MP platform ('微信公众号').",
+                    "DO NOT pass this parameter. The AppID is pre-configured on the server side via environment variables. Passing this will cause an error.",
             },
         },
     },
